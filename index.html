@@ -13,7 +13,7 @@
           <!--[if IE 7]><link rel="stylesheet" href="assets/css/ie7.css" media="screen" /><![endif]-->
           <!-- basic stylesheet -->
           <link rel="stylesheet" href="royalslider/royalslider.css">
-
+          <link rel="stylesheet" href="assets/css/curtain.css" media="screen" />
           <!-- skin stylesheet (change it if you use another) -->
           <link rel="stylesheet" href="royalslider/default/rs-default.css"> 
           <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" />
@@ -22,6 +22,7 @@
 <!--   Import JS     -->               
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="assets/js/global.js"></script>
+    <script src="assets/js/curtain.js"></script>
     <script src="royalslider/jquery.royalslider.custom.min.js"></script>
 <!--   Import JS     -->        
 
@@ -48,9 +49,11 @@
 
 
 </head> 
-  
+  <body> 
+ <ol class = "curtains">   
+ <li class="cover"> 
 
-  <body>        
+  <div id = "header-cover">       
     <div id = "header"><!--Begin Header-->
       <h1 class = "name">ScottSavarie</h1>
         <nav class = "navigation">
@@ -98,9 +101,13 @@
       <h1>Hey! I'm an Interaction Designer currently working in Berlin with the kick-ass team at <a href = "http://www.edenspiekermann.com">Edenspiekermann.</a> You can check out our latest project <a href = "http://www.rbmaradio.com">here.</a></h1>
       <div class ="center-arrow"></div>
     </div> <!--End Intro-->   
-
+   </div> 
+  </div> 
+</li>
+  
 <!--Begin Projects-->
-
+<li class = "fixed">
+  <div class = "wrapper"> 
     <div class = "project">
       <ul class="royalSlider rsDefault">
         <li><img class="rsImg" src="assets/img/0-rbmaradio.png"></li>
@@ -117,6 +124,12 @@
       </div>
       <div class = "clear"></div> 
     </div> 
+
+<!--    </div> 
+</li> -->
+
+<!-- <li class = "cover">
+  <div class = "wrapper"> --> 
 
     <div class = "project">
       <ul class="royalSlider rsDefault">
@@ -136,7 +149,11 @@
       <div class = "clear"></div> 
     </div>
 
+<!-- </div>
+</li> -->
 
+<!-- <li class = "fixed">
+  <div class = "wrapper">  -->
 
     <div class = "project">
       <ul class="royalSlider rsDefault">
@@ -158,8 +175,10 @@
     </div>
     </div> 
 <!--End Projects-->    
+  </div><!--End Wrapper-->  
 
-
+<!--   </li> -->
+</ol>
 
   </body>
 
