@@ -78,15 +78,19 @@ $("#about-container").hide(0);
 
 $(document).ready(function() {
 $(".navigation ul:first-child").click(function(){
-	$("#about-container").slideDown('fast');
+	$("#about-container").slideToggle('fast');
 	});
 }); // end document ready
+
+
 
 $(document).ready(function() {
 $(".close").click(function(){
     $("#about-container").slideUp('slow');
     });
 }); // end document ready
+
+
 
 
 
