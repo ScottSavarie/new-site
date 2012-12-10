@@ -5,11 +5,11 @@
 ============================================================================== */
 
 
-$(function () {
-    $('.curtains').curtain({
-        scrollSpeed: 400
-    });
-});
+// $(function () {
+//     $('.curtains').curtain({
+//         scrollSpeed: 400
+//     });
+// });
 
 
 
@@ -55,7 +55,8 @@ jQuery(document).ready(function($) {
         autoScaleSliderHeight: 450,
         autoScaleSlider: true,
         imageScaleMode: 'fill',
-        keyboardNavEnabled: true
+        keyboardNavEnabled: true,
+        numImagesToPreload: 1
 
 
     });  
