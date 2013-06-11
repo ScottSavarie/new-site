@@ -1,0 +1,45 @@
+//navigation
+
+.navigation
+	float: right
+	padding-top: 0.7em
+	li
+		width: auto
+		line-height: 1
+		border-top: none
+		padding-right: $l-thin
+		display: inline
+		&:last-child
+			padding-right: 0
+
+		a:link, a:visited
+			display: inline-block
+	@media only screen and (min-width: $first-break)
+		li
+			padding-right: $l-small
+
+
+
+
+
+nav
+	a:link, a:visited
+		color: $offwhite
+		font-family: "open-sans", sans-serif
+		+single-transition(color, 0.2s, ease-out)
+
+	a:hover, a:focus
+		color: $accent-color
+
+#intro
+	a:link, a:visited
+		color: $accent-color
+		+single-transition(color, 0.2s, ease-out)
+
+	a:hover, a:focus
+		color: darken($accent-color, 5%)
+
+
+
+
+

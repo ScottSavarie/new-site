@@ -1,0 +1,70 @@
+//----------------------Buttons----------------------//
+
+.btn-primary, %btn-primary
+	@include border-radius(3px)
+	width: 96%
+	display: block
+	margin: 0 auto
+	border: 2px solid rgba(240, 240, 240, 0.13)
+	text-align: center
+	line-height: 2.8
+	font-family: "open-sans", sans-serif
+	color: $offwhite
+	text-transform: uppercase
+	font-size: $f-content-text
+	+single-transition (all, 0.4s, ease-out)
+	box-sizing: border-box
+	&:hover, &:focus
+		@include border-radius(50px)
+		background-color: rgba(240, 240, 240, 0.13)
+		border: 2px solid rgba(240, 240, 240, 0)
+		color: white
+	&:active
+		background-color: darken(rgba(240, 240, 240, 0.13), 10%)
+	@media only screen and (min-width: $second-break)
+		padding: 0 3.5em
+		line-height: 3.8
+		width: auto
+		display: inline-block
+
+
+
+.light-bg
+	.btn-primary
+		@include box-shadow(0 0 0 2px rgba(69, 69, 69, 0.15))
+		color: rgba(69, 69, 69, 0.34)
+		&:hover, &:focus
+			// background-color: rgba(255,255,255,0.1)
+			@include border-radius(50px)
+			background-color: rgba(69, 69, 69, 0.35)
+			color: white
+			@include box-shadow(none)
+		&:active
+			background-color: darken(rgba(69, 69, 69, 0.35), 15%)
+			@include box-shadow(none)
+			color: white
+
+
+
+.close
+	float: right
+	position: absolute
+	font-size: 6em
+	width: 62px
+	height: 109px
+	right: -2px
+	top: -6px
+	+single-transition(all, 0.5s, ease-out)
+	a:link, a:visited
+		color: rgba(255,255,255,0.8)
+	a:hover, a:focus
+		color: rgb(170, 28, 28)
+
+	@media only screen and (min-width: $second-break)
+		width: 85px
+		height: 142px
+		font-size: 8em 
+		right: 35px
+		top: 4px
+.spin
+	+rotate(90deg)	

@@ -1,0 +1,165 @@
+//layout
+
+.l-module, %l-module
+	width: 100%
+	vertical-align: top
+	overflow: hidden
+
+.l-module--spaced, %l-module--spaced
+	@extend %l-module
+	padding: $l-large 0
+
+
+
+.l-container, %l-container
+	width: 90%
+	max-width: 1280px
+	margin: 0 auto
+	display: block
+	overflow: hidden
+
+
+.l-container-spaced, %l-container-spaced
+	@extend %l-container
+	padding: 5em 4px
+
+.l-container-narrow
+	width: 100%
+	max-width: 44em
+	margin: 0 auto
+	display: block
+	overflow: hidden
+	padding: $l-large 0
+
+.l-intro-text, %l-intro-text
+	width: 100%
+	max-width: 55em
+	margin: 0 auto
+	display: block
+	overflow: hidden
+	padding: 4.5em 0
+	margin-top: 4em
+
+.l-intro-centered
+	width: 100%
+	padding: 4.5em 4px
+	margin: 0 auto
+	@media only screen and (min-width: $first-break)
+		padding: 4.5em 0
+		text-align: center	
+		margin-top: 4em
+		overflow: hidden
+		max-width: 55em
+		width: 80%
+
+.text-center
+	text-align: center
+
+
+.has-divider
+	border-bottom: 1px solid #eee
+
+.mt-large
+	margin-top: $l-large
+
+.mb-large
+	margin-bottom: $l-large
+
+
+.mt-small
+	margin-top: $l-small	
+
+.mb-small
+	margin-bottom: $l-small	
+
+
+
+.text-center
+	text-align: center
+
+
+#header
+	padding: $l-big $l-small
+	@media only screen and (min-width: $first-break)
+		padding: $l-big $l-big
+
+#header-cover
+	// +single-transition (opacity, 0.7s, ease-in)
+	height: 100%
+	min-height: 720px
+	@media only screen and (min-width: $second-break)
+		background-color: rgba(0,0,0,0.7)
+		max-height: 100%
+		min-height: 950px
+
+#header-bg
+	+single-transition (opacity, 0.7s, ease-in)
+	height: 100%
+	min-height: 720px
+	@media only screen and (min-width: $second-break)
+		background: url(../img/scott2.jpg) no-repeat
+		background-attachment: fixed
+		background-size: cover
+		max-height: 100%
+		min-height: 950px
+
+
+
+#intro 
+	padding-top: 14.5%
+	@media only screen and (min-width: $second-break)
+		padding-top: 13%
+
+
+
+.pt, .drip, .keycard, .various-web
+	margin-top: 10%
+
+
+#about-container
+	background:  rgba($accent-color, 0.97)
+	padding: $l-large
+	position: absolute
+	min-height: 1020px
+	height: 100%
+	z-index: 10
+	overflow: hidden
+	@media only screen and (min-width: $third-break)
+		.about-wrapper
+			width: 95%
+			margin: 0 auto
+		.three-col
+			padding-top: 2%
+			li
+				width: 43%
+				&:last-child
+					width: 100px	
+		.social-links
+			li
+				width: 100%
+				display: block
+				padding: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
