@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$l-large".
-        on line 10 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/layout.sass
+        on line 10 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass
 
 Backtrace:
-/Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/layout.sass:10
+/Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass:10
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/list.rb:70:in `_perform'
@@ -80,4 +80,4 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$l-large\".\A         on line 10 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/layout.sass"; }
+  content: "Syntax error: Undefined variable: \"$l-large\".\A         on line 10 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass"; }

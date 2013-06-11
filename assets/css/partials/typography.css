@@ -1,9 +1,9 @@
 /*
 Syntax error: Undefined variable: "$offwhite".
-        on line 7 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/typography.sass
+        on line 7 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass
 
 Backtrace:
-/Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/typography.sass:7
+/Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass:7
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/variable.rb:49:in `_perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/script/node.rb:40:in `perform'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -76,4 +76,4 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$offwhite\".\A         on line 7 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/typography.sass"; }
+  content: "Syntax error: Undefined variable: \"$offwhite\".\A         on line 7 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass"; }
