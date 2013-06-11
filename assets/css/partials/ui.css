@@ -1,13 +1,13 @@
 /*
 Syntax error: Undefined mixin 'border-radius'.
-        on line 4 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass, in `border-radius'
-        from line 4 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass
+        on line 4 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass, in `border-radius'
+        from line 4 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass
 
-1: /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass
+1: /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass
 
 Backtrace:
-/Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass:4:in `border-radius'
-/Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass:4
+/Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass:4:in `border-radius'
+/Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass:4
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:249:in `visit_mixin'
 org/jruby/RubyKernel.java:2096:in `send'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
@@ -78,4 +78,4 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 4 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass, in `border-radius'\A         from line 4 of /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass\A \A 1: /Users/scottsavarie/Dropbox/Personal/*archive-2012/1211-personal-website/new-site-large-portfolio/assets/sass/partials/ui.sass"; }
+  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 4 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass, in `border-radius'\A         from line 4 of /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass\A \A 1: /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass"; }
