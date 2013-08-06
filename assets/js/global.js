@@ -194,16 +194,15 @@ if($(".appuous").offset().top < $(window).scrollTop() + $(window).outerHeight())
 
 
 
-// $(window).scroll(function(event) {
+$(window).scroll(function(event) {
 
-// if($(".pt").offset().top <= $(window).scrollTop() + $(window).outerHeight()) {
-//     $("body").removeClass();
-//     $("body").addClass("lightgrey");
-// } else {
-//     // do nothing
-// }
+if($(".pt").offset().top <= $(window).scrollTop() + $(window).outerHeight()) {
+    $("body").css({"background":"#f4f4f4"});
+} else {
+    // do nothing
+}
 
-// });
+});
 
 $(window).scroll(function(event) {
 
