@@ -11,6 +11,12 @@ h1.name
 	width: 158px
 
 
+#intro
+	h1
+	@media only screen and (min-width: $second-break)
+		text-align: center
+
+
 
 h1
 	font-size: 1.7em
@@ -19,7 +25,6 @@ h1
 	width: 100%
 	display: block
 	line-height: 1.2
-	letter-spacing: -1px
 	font-family: "droid-serif", georgia, serif
 	@media only screen and (min-width: $first-break)
 		font-size: 3em
@@ -31,10 +36,6 @@ h1
 		font-size: 4em	
 
 
-.project h1
-	@media only screen and (min-width: $first-break)
-		font-size: 3.5em
-		padding-bottom: 0.3em
 
 .project
 	h2
@@ -59,12 +60,13 @@ h1
 h2
 	font-size: 1.2em
 	color: $offwhite
-	//letter-spacing: -1px
 	line-height: 1.5
 	font-weight: 100
+	margin-bottom: 1em
 	font-family: "open-sans", sans-serif
 	@media only screen and (min-width: $second-break)
-		font-size: 1.875em
+		font-size: 1.4em
+		margin-bottom: 2em
 
 p 
 
@@ -77,13 +79,13 @@ p
 
 .project-info
 	display: block
-	margin-top: 1.5em
+	margin-top: 0.5em
 	color: #C9C9C9
 	font-style: italic
-	margin-bottom: 3em
+	margin-bottom: 1em
 	opacity: 0.35
 	@media only screen and (min-width: $second-break)
-		font-size: 0.65em
+		font-size: 1.3em
 
 
 
