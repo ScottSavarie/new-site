@@ -22,7 +22,6 @@ $(document).ready(function() {
 $("#header-cover, .center-arrow").hide(0);
 $("#header-cover").delay(500).fadeIn('slow');
 $("#header").delay(500).fadeIn('slow');
-$(".center-arrow").delay(1000).slideDown(300);
 }); // end document ready
 
 
