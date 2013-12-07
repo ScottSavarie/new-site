@@ -31,15 +31,20 @@ nav
 	a:hover, a:focus
 		color: $accent-color
 
-#intro
-	a:link, a:visited
-		color: $accent-color
-		+single-transition(color, 0.2s, ease-out)
+// #intro
+// 	a:link, a:visited
+// 		color: $accent-color
+// 		+single-transition(color, 0.2s, ease-out)
 
-	a:hover, a:focus
-		color: darken($accent-color, 5%)
+// 	a:hover, a:focus
+// 		color: darken($accent-color, 5%)
 
 
 
+a.facebook-link, a:visited.facebook-link
+	color: $accent-color
+	+single-transition(color, 0.2s, ease-out)
+	&:hover, &:focus
+		color: #3b5998
 
 
