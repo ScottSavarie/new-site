@@ -1,122 +1,122 @@
-/* line 32, ../sass/partials/constants.sass */
+/* line 32, /Users/scottsavarie/Sites/new-site/assets/sass/partials/constants.sass */
 .white {
   background: white;
 }
 
-/* line 35, ../sass/partials/constants.sass */
+/* line 35, /Users/scottsavarie/Sites/new-site/assets/sass/partials/constants.sass */
 .lightgrey {
   background: #f4f4f4;
 }
 
-/* line 38, ../sass/partials/constants.sass */
+/* line 38, /Users/scottsavarie/Sites/new-site/assets/sass/partials/constants.sass */
 .darkgrey {
   background: #242424;
 }
 
-/* line 41, ../sass/partials/constants.sass */
+/* line 41, /Users/scottsavarie/Sites/new-site/assets/sass/partials/constants.sass */
 .bluegrey {
   background: #1d2029;
 }
 
-/* line 44, ../sass/partials/constants.sass */
+/* line 44, /Users/scottsavarie/Sites/new-site/assets/sass/partials/constants.sass */
 .verydarkgrey {
   background: #303133;
 }
 
-/* line 10, ../sass/partials/normalize.sass */
+/* line 10, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
 
-/* line 13, ../sass/partials/normalize.sass */
+/* line 13, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
 }
 
-/* line 19, ../sass/partials/normalize.sass */
+/* line 19, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 audio, canvas, video {
   display: inline-block;
 }
 
-/* line 25, ../sass/partials/normalize.sass */
+/* line 25, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 31, ../sass/partials/normalize.sass */
+/* line 31, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 [hidden] {
   display: none;
 }
 
-/* line 42, ../sass/partials/normalize.sass */
+/* line 42, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 53, ../sass/partials/normalize.sass */
+/* line 53, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 body {
   margin: 0;
 }
 
-/* line 64, ../sass/partials/normalize.sass */
+/* line 64, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 a:focus {
   outline: thin dotted;
 }
-/* line 66, ../sass/partials/normalize.sass */
+/* line 66, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 a:active, a:hover {
   outline: 0;
 }
 
-/* line 86, ../sass/partials/normalize.sass */
+/* line 86, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 92, ../sass/partials/normalize.sass */
+/* line 92, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 b, strong {
   font-weight: bold;
 }
 
-/* line 98, ../sass/partials/normalize.sass */
+/* line 98, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 dfn {
   font-style: italic;
 }
 
-/* line 103, ../sass/partials/normalize.sass */
+/* line 103, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 mark {
   background: yellow;
   color: black;
 }
 
-/* line 109, ../sass/partials/normalize.sass */
+/* line 109, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 code, kbd, pre, samp {
   font-family: monospace, serif;
 }
 
-/* line 115, ../sass/partials/normalize.sass */
+/* line 115, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 122, ../sass/partials/normalize.sass */
+/* line 122, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 130, ../sass/partials/normalize.sass */
+/* line 130, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 sub {
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-/* line 136, ../sass/partials/normalize.sass */
+/* line 136, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 sup {
   line-height: 0;
   position: relative;
@@ -124,109 +124,109 @@ sup {
   top: -0.5em;
 }
 
-/* line 143, ../sass/partials/normalize.sass */
+/* line 143, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 150, ../sass/partials/normalize.sass */
+/* line 150, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 img {
   border: 0;
 }
 
-/* line 152, ../sass/partials/normalize.sass */
+/* line 152, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 159, ../sass/partials/normalize.sass */
+/* line 159, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 figure {
   margin: 0;
 }
 
-/* line 166, ../sass/partials/normalize.sass */
+/* line 166, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 171, ../sass/partials/normalize.sass */
+/* line 171, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 175, ../sass/partials/normalize.sass */
+/* line 175, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 button, input, select, textarea {
   font-family: inherit;
   margin: 0;
   border: 0;
 }
 
-/* line 181, ../sass/partials/normalize.sass */
+/* line 181, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input:focus {
   outline: none;
 }
 
-/* line 187, ../sass/partials/normalize.sass */
+/* line 187, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 button,
 input {
   line-height: normal;
 }
 
-/* line 191, ../sass/partials/normalize.sass */
+/* line 191, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 button,
 html input[type="button"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-/* line 197, ../sass/partials/normalize.sass */
+/* line 197, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-/* line 202, ../sass/partials/normalize.sass */
+/* line 202, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 button[disabled] {
   cursor: default;
 }
 
-/* line 206, ../sass/partials/normalize.sass */
+/* line 206, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input[disabled] {
   cursor: default;
 }
-/* line 208, ../sass/partials/normalize.sass */
+/* line 208, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 212, ../sass/partials/normalize.sass */
+/* line 212, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 217, ../sass/partials/normalize.sass */
+/* line 217, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 233, ../sass/partials/normalize.sass */
+/* line 233, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 241, ../sass/partials/normalize.sass */
+/* line 241, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 254, ../sass/partials/normalize.sass */
+/* line 254, /Users/scottsavarie/Sites/new-site/assets/sass/partials/normalize.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -275,19 +275,19 @@ img {
   height: auto;
 }
 
-/* line 3, ../sass/partials/layout.sass */
+/* line 3, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-module, .l-module--spaced {
   width: 100%;
   vertical-align: top;
   overflow: hidden;
 }
 
-/* line 8, ../sass/partials/layout.sass */
+/* line 8, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-module--spaced {
   padding: 2em 0;
 }
 
-/* line 14, ../sass/partials/layout.sass */
+/* line 14, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-container, .l-container-spaced {
   width: 90%;
   max-width: 1280px;
@@ -296,12 +296,12 @@ img {
   overflow: hidden;
 }
 
-/* line 22, ../sass/partials/layout.sass */
+/* line 22, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-container-spaced {
   padding: 5em 4px;
 }
 
-/* line 26, ../sass/partials/layout.sass */
+/* line 26, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-container-narrow {
   width: 90%;
   max-width: 44em;
@@ -311,7 +311,7 @@ img {
   padding: 2em 0;
 }
 
-/* line 34, ../sass/partials/layout.sass */
+/* line 34, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-intro-text {
   width: 100%;
   max-width: 55em;
@@ -322,14 +322,14 @@ img {
   margin-top: 4em;
 }
 
-/* line 43, ../sass/partials/layout.sass */
+/* line 43, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .l-intro-project {
   width: 100%;
   padding: 4.5em 4px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 580px) {
-  /* line 43, ../sass/partials/layout.sass */
+  /* line 43, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   .l-intro-project {
     padding: 10.5em 2px;
     margin-top: 4em;
@@ -339,66 +339,66 @@ img {
   }
 }
 
-/* line 54, ../sass/partials/layout.sass */
+/* line 54, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 58, ../sass/partials/layout.sass */
+/* line 58, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .has-divider {
   border-bottom: 1px solid #eeeeee;
 }
 
-/* line 61, ../sass/partials/layout.sass */
+/* line 61, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .mt-large {
   margin-top: 2em;
 }
 
-/* line 64, ../sass/partials/layout.sass */
+/* line 64, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .mb-large {
   margin-bottom: 2em;
 }
 
-/* line 68, ../sass/partials/layout.sass */
+/* line 68, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .mt-small {
   margin-top: 1em;
 }
 
-/* line 71, ../sass/partials/layout.sass */
+/* line 71, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .mb-small {
   margin-bottom: 1em;
 }
 
-/* line 76, ../sass/partials/layout.sass */
+/* line 76, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 80, ../sass/partials/layout.sass */
+/* line 80, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 #header {
   padding: 3em 1em;
 }
 @media only screen and (min-width: 580px) {
-  /* line 80, ../sass/partials/layout.sass */
+  /* line 80, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #header {
     padding: 3em 3em;
   }
 }
 
-/* line 85, ../sass/partials/layout.sass */
+/* line 85, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 #header-cover {
   height: 100%;
 }
 @media only screen and (min-width: 770px) {
-  /* line 85, ../sass/partials/layout.sass */
+  /* line 85, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #header-cover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.75);
     max-height: 100%;
     min-height: 950px;
   }
 }
 
-/* line 93, ../sass/partials/layout.sass */
+/* line 93, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 #header-bg {
   -webkit-transition: opacity 0.7s ease-in;
   -moz-transition: opacity 0.7s ease-in;
@@ -407,7 +407,7 @@ img {
   height: 100%;
 }
 @media only screen and (min-width: 770px) {
-  /* line 93, ../sass/partials/layout.sass */
+  /* line 93, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #header-bg {
     background: url(../img/scott2.jpg) no-repeat;
     background-attachment: fixed;
@@ -417,51 +417,51 @@ img {
   }
 }
 
-/* line 105, ../sass/partials/layout.sass */
+/* line 105, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 #intro {
   padding-top: 14.5%;
 }
 @media only screen and (min-width: 770px) {
-  /* line 105, ../sass/partials/layout.sass */
+  /* line 105, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #intro {
     padding-top: 15%;
   }
 }
 
-/* line 112, ../sass/partials/layout.sass */
+/* line 112, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 .pt, .drip, .keycard, .various-web {
   margin-top: 10%;
 }
 
-/* line 116, ../sass/partials/layout.sass */
+/* line 116, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
 #about-container {
   background: rgba(247, 61, 61, 0.97);
   padding: 2em;
   position: absolute;
-  min-height: 1020px;
+  min-height: 1120px;
   height: 100%;
   z-index: 10;
   overflow: hidden;
 }
 @media only screen and (min-width: 960px) {
-  /* line 125, ../sass/partials/layout.sass */
+  /* line 125, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #about-container .about-wrapper {
     width: 95%;
     margin: 0 auto;
   }
-  /* line 128, ../sass/partials/layout.sass */
+  /* line 128, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #about-container .three-col {
     padding-top: 2%;
   }
-  /* line 130, ../sass/partials/layout.sass */
+  /* line 130, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #about-container .three-col li {
     width: 43%;
   }
-  /* line 132, ../sass/partials/layout.sass */
+  /* line 132, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #about-container .three-col li:last-child {
     width: 100px;
   }
-  /* line 135, ../sass/partials/layout.sass */
+  /* line 135, /Users/scottsavarie/Sites/new-site/assets/sass/partials/layout.sass */
   #about-container .social-links li {
     width: 100%;
     display: block;
@@ -469,12 +469,12 @@ img {
   }
 }
 
-/* line 3, ../sass/partials/navigation.sass */
+/* line 3, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 .navigation {
   float: right;
   padding-top: 0.7em;
 }
-/* line 6, ../sass/partials/navigation.sass */
+/* line 6, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 .navigation li {
   width: auto;
   line-height: 1;
@@ -482,22 +482,22 @@ img {
   padding-right: 0.5em;
   display: inline;
 }
-/* line 12, ../sass/partials/navigation.sass */
+/* line 12, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 .navigation li:last-child {
   padding-right: 0;
 }
-/* line 15, ../sass/partials/navigation.sass */
+/* line 15, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 .navigation li a:link, .navigation li a:visited {
   display: inline-block;
 }
 @media only screen and (min-width: 580px) {
-  /* line 18, ../sass/partials/navigation.sass */
+  /* line 18, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
   .navigation li {
     padding-right: 1em;
   }
 }
 
-/* line 26, ../sass/partials/navigation.sass */
+/* line 26, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 nav a:link, nav a:visited {
   color: #dddddd;
   font-family: "open-sans", sans-serif;
@@ -506,25 +506,25 @@ nav a:link, nav a:visited {
   -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-/* line 31, ../sass/partials/navigation.sass */
+/* line 31, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
 nav a:hover, nav a:focus {
   color: #f73d3d;
 }
 
-/* line 35, ../sass/partials/navigation.sass */
-#intro a:link, #intro a:visited {
+/* line 44, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
+a.facebook-link, a:visited.facebook-link {
   color: #f73d3d;
   -webkit-transition: color 0.2s ease-out;
   -moz-transition: color 0.2s ease-out;
   -o-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-/* line 39, ../sass/partials/navigation.sass */
-#intro a:hover, #intro a:focus {
-  color: #f62525;
+/* line 47, /Users/scottsavarie/Sites/new-site/assets/sass/partials/navigation.sass */
+a.facebook-link:hover, a.facebook-link:focus, a:visited.facebook-link:hover, a:visited.facebook-link:focus {
+  color: #3b5998;
 }
 
-/* line 3, ../sass/partials/typography.sass */
+/* line 3, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 h1.name {
   font-size: 1.7em;
   float: left;
@@ -537,13 +537,13 @@ h1.name {
 }
 
 @media only screen and (min-width: 770px) {
-  /* line 14, ../sass/partials/typography.sass */
+  /* line 14, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   #intro {
     text-align: center;
   }
 }
 
-/* line 21, ../sass/partials/typography.sass */
+/* line 21, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 h1 {
   font-size: 1.7em;
   color: #dddddd;
@@ -554,47 +554,47 @@ h1 {
   font-family: "droid-serif", georgia, serif;
 }
 @media only screen and (min-width: 580px) {
-  /* line 21, ../sass/partials/typography.sass */
+  /* line 21, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   h1 {
     font-size: 3em;
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 21, ../sass/partials/typography.sass */
+  /* line 21, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   h1 {
     font-size: 3.5em;
   }
 }
 @media only screen and (min-width: 2000px) {
-  /* line 21, ../sass/partials/typography.sass */
+  /* line 21, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   h1 {
     font-size: 4em;
   }
 }
 
-/* line 42, ../sass/partials/typography.sass */
+/* line 42, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .project h2 a:link, .project h2 a:visited {
   color: #dddddd;
   text-decoration: underline;
 }
-/* line 45, ../sass/partials/typography.sass */
+/* line 45, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .project h2 a:hover, .project h2 a:focus {
   color: white;
   text-decoration: underline;
 }
 
-/* line 51, ../sass/partials/typography.sass */
+/* line 51, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .light-bg h2 a:link, .light-bg h2 a:visited {
   color: #454545;
   text-decoration: underline;
 }
-/* line 54, ../sass/partials/typography.sass */
+/* line 54, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .light-bg h2 a:hover, .light-bg h2 a:focus {
   color: #5f5f5f;
   text-decoration: underline;
 }
 
-/* line 60, ../sass/partials/typography.sass */
+/* line 60, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 h2 {
   font-size: 1.2em;
   color: #dddddd;
@@ -604,14 +604,14 @@ h2 {
   font-family: "open-sans", sans-serif;
 }
 @media only screen and (min-width: 770px) {
-  /* line 60, ../sass/partials/typography.sass */
+  /* line 60, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   h2 {
     font-size: 1.4em;
     margin-bottom: 2em;
   }
 }
 
-/* line 71, ../sass/partials/typography.sass */
+/* line 71, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 p {
   font-size: 0.95em;
   color: #414141;
@@ -619,13 +619,13 @@ p {
   font-family: "open-sans", sans-serif;
 }
 @media only screen and (min-width: 770px) {
-  /* line 71, ../sass/partials/typography.sass */
+  /* line 71, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   p {
     font-size: 1.2em;
   }
 }
 
-/* line 80, ../sass/partials/typography.sass */
+/* line 80, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .project-info {
   display: block;
   margin-top: 0.5em;
@@ -635,50 +635,50 @@ p {
   opacity: 0.35;
 }
 @media only screen and (min-width: 770px) {
-  /* line 80, ../sass/partials/typography.sass */
+  /* line 80, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   .project-info {
     font-size: 1.3em;
   }
 }
 
-/* line 93, ../sass/partials/typography.sass */
+/* line 93, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .light-bg h1, .light-bg h2 {
   color: #454545;
 }
-/* line 95, ../sass/partials/typography.sass */
+/* line 95, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .light-bg .project-info {
   color: #454545;
   opacity: 0.45;
 }
 
-/* line 103, ../sass/partials/typography.sass */
+/* line 103, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .three-col h1 {
   margin-top: 0.5em;
   color: white;
   padding-bottom: 0.3em;
 }
-/* line 107, ../sass/partials/typography.sass */
+/* line 107, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .three-col p, .three-col .social-links {
   font-size: 1.1em;
   color: white;
   font-family: "open-sans", sans-serif;
 }
 @media only screen and (min-width: 770px) {
-  /* line 107, ../sass/partials/typography.sass */
+  /* line 107, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
   .three-col p, .three-col .social-links {
     font-size: 1.2em;
   }
 }
-/* line 115, ../sass/partials/typography.sass */
+/* line 115, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .three-col a:link, .three-col a:visited {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 117, ../sass/partials/typography.sass */
+/* line 117, /Users/scottsavarie/Sites/new-site/assets/sass/partials/typography.sass */
 .three-col a:hover, .three-col a:focus {
   color: #aa1c1c;
 }
 
-/* line 3, ../sass/partials/ui.sass */
+/* line 3, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .btn-primary {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -701,7 +701,7 @@ p {
   transition: all 0.4s ease-out;
   box-sizing: border-box;
 }
-/* line 17, ../sass/partials/ui.sass */
+/* line 17, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .btn-primary:hover, .btn-primary:focus {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -712,12 +712,12 @@ p {
   border: 2px solid rgba(240, 240, 240, 0);
   color: white;
 }
-/* line 22, ../sass/partials/ui.sass */
+/* line 22, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .btn-primary:active {
   background-color: rgba(214, 214, 214, 0.13);
 }
 @media only screen and (min-width: 770px) {
-  /* line 3, ../sass/partials/ui.sass */
+  /* line 3, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
   .btn-primary {
     padding: 0 3.5em;
     line-height: 3.8;
@@ -726,14 +726,14 @@ p {
   }
 }
 
-/* line 33, ../sass/partials/ui.sass */
+/* line 33, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .light-bg .btn-primary {
   -webkit-box-shadow: 0 0 0 2px rgba(69, 69, 69, 0.15);
   -moz-box-shadow: 0 0 0 2px rgba(69, 69, 69, 0.15);
   box-shadow: 0 0 0 2px rgba(69, 69, 69, 0.15);
   color: rgba(69, 69, 69, 0.34);
 }
-/* line 36, ../sass/partials/ui.sass */
+/* line 36, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .light-bg .btn-primary:hover, .light-bg .btn-primary:focus {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -746,7 +746,7 @@ p {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 42, ../sass/partials/ui.sass */
+/* line 42, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .light-bg .btn-primary:active {
   background-color: rgba(31, 31, 31, 0.35);
   -webkit-box-shadow: none;
@@ -755,7 +755,7 @@ p {
   color: white;
 }
 
-/* line 51, ../sass/partials/ui.sass */
+/* line 51, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .close {
   float: right;
   position: absolute;
@@ -769,16 +769,16 @@ p {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 60, ../sass/partials/ui.sass */
+/* line 60, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .close a:link, .close a:visited {
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 62, ../sass/partials/ui.sass */
+/* line 62, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .close a:hover, .close a:focus {
   color: #aa1c1c;
 }
 @media only screen and (min-width: 770px) {
-  /* line 51, ../sass/partials/ui.sass */
+  /* line 51, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
   .close {
     width: 85px;
     height: 142px;
@@ -788,7 +788,7 @@ p {
   }
 }
 
-/* line 71, ../sass/partials/ui.sass */
+/* line 71, /Users/scottsavarie/Sites/new-site/assets/sass/partials/ui.sass */
 .spin {
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
