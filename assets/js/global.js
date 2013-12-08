@@ -267,5 +267,34 @@ if($(".various-web").offset().top < $(window).scrollTop() + $(window).outerHeigh
 
 
 
+map_range = function(value, low1, high1, low2, high2) {
+ if (value < low1) { return low2; }
+ else if (value > high1) { return high2; }
+ else return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
+}
+
+
+
+
+
+$(window).scroll(function(event) {
+  var scrollTop = $(document).scrollTop();
+
+  if (window.innerWidth >= 870){
+    $("#header-cover").css({"top": map_range(scrollTop, 1, 1000, 1, 400) + "px"});
+
+    $(".header-image").css({"opacity": map_range(scrollTop, 1, 500, 0.1, 0)});
+
+    }
+
+    else {
+      
+    }
+});
+
+
+
+
+
 
 
